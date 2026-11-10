@@ -19,6 +19,7 @@ environments:
       port: 2299                  # change
       user: "deploy"
       key_path: "~/.ssh/id_ed25519"
+      strict_host_key: true              # CI: never connect to an unknown server
 
     remote_path: "/var/www/mipanel"
 
