@@ -1,0 +1,5 @@
+# Las pruebas usan credenciales inventadas (usuarios y bases desechables, SMTP falso): no son secretos
+version: 2
+secret:
+  ignored_paths:
+    - versaWYS/tests/**

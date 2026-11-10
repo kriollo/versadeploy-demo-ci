@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require_once __DIR__ . '/versaWYS/vendor/autoload.php';
+
+versaWYS\kernel\cli\CommandLineInterface::main(__DIR__, $argv);
