@@ -90,3 +90,5 @@ environments:
 
     health_check:
       url: "http://mipanel.localhost:8099/up"        # versaWYS's health route
+    pre_deploy_local:
+      - "php versaCLI app:check:deploy"
